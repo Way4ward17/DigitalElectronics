@@ -1,13 +1,30 @@
-package com.example.digitalelectronic;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
+ */
+package fxml;
 
-import javafx.event.ActionEvent;
+import java.net.URL;
+import java.util.ResourceBundle;
+iimport javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
+mport javafx.fxml.Initializable;
 
-public class HelloController {
-    @FXML
-    private Label welcomeText;
+/**
+ * FXML Controller class
+ *
+ * @author apple
+ */
+public class FXMLController implements Initializable {
 
+    /**
+     * Initializes the controller class.
+     */
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        // TODO
+    }    
+    
     @FXML
     private void chapterone(ActionEvent event) {
     }
@@ -47,4 +64,5 @@ public class HelloController {
     @FXML
     private void chapterten(ActionEvent event) {
     }
+
 }
