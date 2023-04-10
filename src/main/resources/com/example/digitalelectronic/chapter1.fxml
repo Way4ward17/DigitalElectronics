@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="459.0" prefWidth="642.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.digitalelectronic.Chapter1">
+   <children>
+      <Text layoutX="13.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chapter One">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <Separator layoutX="14.0" layoutY="47.0" prefHeight="0.0" prefWidth="794.0" />
+      <Text layoutX="12.0" layoutY="97.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our Digital Electronics learning kit is designed for the aspirants who wish to know the core concepts of Digital Electronics. Our tutorial covers the basic and academic concepts that include various conversion types, decoders, multiplexers, logic gates, and many more.Digital electronics, digital circuits, and digital technology are electronics that are operated on digital signals. Digital techniques are much easier for getting the electronic device. These devices are used to switch into one of the known states apart from reproducing a continuous range of values. Digital circuits are made from a large collection of logic gates and a simple electronic representation of the Boolean logic function" textAlignment="JUSTIFY" wrappingWidth="785.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="10.0" layoutY="358.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This tutorial is helpful for those students who are interested in gaining knowledge of how digital circuits are designed and how the computer understand the human language. This tutorial covers all the basics of Digital Electronics, which helps us to understand circuitry design" textAlignment="JUSTIFY" wrappingWidth="785.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="12.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introduction">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="13.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Audience">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <Button layoutX="708.0" layoutY="425.0" mnemonicParsing="false" onAction="#nexttotwo" prefHeight="25.0" prefWidth="85.0" text="Next &gt;" />
+   </children>
+</AnchorPane>
