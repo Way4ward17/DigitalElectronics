@@ -22,7 +22,13 @@ public class Chapter1 extends Application {
     }
 
     @FXML
-    private void nexttotwo(ActionEvent event) {
+    private void nexttotwo(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("chapter2.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage stage = new Stage();
+        stage.setTitle("Chapter Two");
+        stage.setScene(scene);
+        stage.show();
     }
 
     public void playVideo(ActionEvent actionEvent) throws IOException {
@@ -31,7 +37,7 @@ public class Chapter1 extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("videoPlayer.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage stage = new Stage(StageStyle.UNDECORATED);
-        stage.setTitle("Chapter Thirteen");
+        stage.setTitle("Video Player");
         stage.setScene(scene);
         stage.show();
     }

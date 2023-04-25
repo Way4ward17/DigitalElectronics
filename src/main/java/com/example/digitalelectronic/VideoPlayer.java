@@ -3,6 +3,7 @@ package com.example.digitalelectronic;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
@@ -15,6 +16,7 @@ import java.util.ResourceBundle;
 public class VideoPlayer implements Initializable {
 
 
+    public AnchorPane Video;
     String URL;
     @FXML
     public MediaView mediaView;
@@ -39,6 +41,8 @@ public class VideoPlayer implements Initializable {
     public void stop(ActionEvent actionEvent) {
         if(mediaPlayer.getStatus() != MediaPlayer.Status.READY){
             mediaPlayer.seek(Duration.seconds(0.0));
+            mediaPlayer.stop();
+            Video.getScene().getWindow().hide();
         }
     }
 }

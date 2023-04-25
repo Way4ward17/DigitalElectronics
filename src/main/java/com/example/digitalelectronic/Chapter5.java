@@ -22,7 +22,13 @@ public class Chapter5 extends Application {
     }
 
     @FXML
-    private void nexttosix(ActionEvent event) {
+    private void nexttosix(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("chapter6.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage stage = new Stage();
+        stage.setTitle("Chapter Six");
+        stage.setScene(scene);
+        stage.show();
     }
 
 
