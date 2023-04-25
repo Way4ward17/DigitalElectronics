@@ -7,44 +7,44 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.digitalelectronic.Chapter4">
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.digitalelectronic.Chapter4">
    <children>
       <AnchorPane prefHeight="400.0" prefWidth="600.0">
          <children>
             <AnchorPane prefHeight="503.0" prefWidth="642.0" style="-fx-background-color: white;">
                <children>
-                  <Text layoutX="14.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OR Gate">
+                  <Text layoutX="14.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOT Gate">
                      <font>
                         <Font size="21.0" />
                      </font>
                   </Text>
-                  <Text layoutX="15.0" layoutY="64.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This gate works in the same way as the logical operator &quot;or&quot;. The OR gate is a circuit which performs the OR operation of the inputs. This gate also has a minimum of 2 input values and an output value." textAlignment="JUSTIFY" wrappingWidth="616.14892578125">
+                  <Text layoutX="15.0" layoutY="64.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The NOT gate is also called an inverter. This gate gives the inverse value of the input value as a result. This gate has only one input and one output value." textAlignment="JUSTIFY" wrappingWidth="616.14892578125">
                      <font>
                         <Font name="System Bold" size="16.0" />
                      </font>
                   </Text>
                   <ImageView fitHeight="216.0" fitWidth="273.0" layoutX="9.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/Screenshot%202023-04-10%20at%203.06.32%20PM.png" />
+                        <Image url="@images/Screenshot%202023-04-10%20at%203.42.32%20PM.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="194.0" fitWidth="262.0" layoutX="278.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/Screenshot%202023-04-10%20at%203.12.35%20PM.png" />
+                        <Image url="@images/Screenshot%202023-04-10%20at%203.42.59%20PM.png" />
                      </image>
                   </ImageView>
-                  <Button layoutX="555.0" layoutY="463.0" mnemonicParsing="false" onAction="#nexttothree" prefHeight="25.0" prefWidth="75.0" text="Next &gt;" />
-                  <Text layoutX="15.0" layoutY="152.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y=A OR B OR C OR D……N" textAlignment="JUSTIFY" wrappingWidth="191.14892578125">
+                  <Button layoutX="555.0" layoutY="463.0" mnemonicParsing="false" onAction="#nexttofive" prefHeight="25.0" prefWidth="75.0" text="Next &gt;" />
+                  <Text layoutX="15.0" layoutY="152.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y=NOT A" textAlignment="JUSTIFY" wrappingWidth="191.14892578125">
                      <font>
                         <Font name="System Bold" size="16.0" />
                      </font>
                   </Text>
-                  <Text layoutX="15.0" layoutY="180.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y=A+B+C+D……N" textAlignment="JUSTIFY" wrappingWidth="137.14892578125">
+                  <Text layoutX="15.0" layoutY="180.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y=A'" textAlignment="JUSTIFY" wrappingWidth="137.14892578125">
                      <font>
                         <Font name="System Bold" size="16.0" />
                      </font>
                   </Text>
+                  <Button layoutX="536.0" layoutY="7.0" mnemonicParsing="false" onAction="#playVideo" text="Watch Instead" />
                </children>
             </AnchorPane>
          </children>

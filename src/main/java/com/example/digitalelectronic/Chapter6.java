@@ -10,7 +10,7 @@ import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
-public class Chapter2 extends Application {
+public class Chapter6 extends Application {
 
     public static void main(String[] args) {
         launch(args);
@@ -22,9 +22,8 @@ public class Chapter2 extends Application {
     }
 
     @FXML
-    private void nexttothree(ActionEvent event) {
+    private void nexttoseven(ActionEvent event) {
     }
-
 
 
     public void playVideo(ActionEvent actionEvent) throws IOException {

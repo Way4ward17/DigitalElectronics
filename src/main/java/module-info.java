@@ -7,6 +7,7 @@ module com.example.digitalelectronic {
     requires javafx.base;
     requires javafx.graphics;
     requires java.base;
+    requires javafx.media;
 
     opens com.example.digitalelectronic to javafx.fxml;
     exports com.example.digitalelectronic;

@@ -2,20 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
  */
-package fxml;
+package com.example.digitalelectronic;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-iimport javafx.event.ActionEvent;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-mport javafx.fxml.Initializable;
+import javafx.fxml.Initializable;
 
 /**
  * FXML Controller class
  *
  * @author apple
  */
-public class FXMLController implements Initializable {
+public class AndGate implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -24,7 +24,9 @@ public class FXMLController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
-    
-   
 
+    @FXML
+    private void nexttoeight(ActionEvent event) {
+    }
+    
 }

@@ -7,8 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.digitalelectronic.Chapter3">
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.digitalelectronic.Chapter3">
    <children>
       <AnchorPane prefHeight="503.0" prefWidth="642.0" style="-fx-background-color: white;">
          <children>
@@ -32,7 +31,7 @@
                   <Image url="@images/Screenshot%202023-04-10%20at%203.12.35%20PM.png" />
                </image>
             </ImageView>
-            <Button layoutX="555.0" layoutY="463.0" mnemonicParsing="false" onAction="#nexttothree" prefHeight="25.0" prefWidth="75.0" text="Next &gt;" />
+            <Button layoutX="555.0" layoutY="463.0" mnemonicParsing="false" onAction="#nexttofour" prefHeight="25.0" prefWidth="75.0" text="Next &gt;" />
             <Text layoutX="15.0" layoutY="152.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y=A OR B OR C OR D……N" textAlignment="JUSTIFY" wrappingWidth="191.14892578125">
                <font>
                   <Font name="System Bold" size="16.0" />
@@ -43,6 +42,7 @@
                   <Font name="System Bold" size="16.0" />
                </font>
             </Text>
+            <Button layoutX="532.0" layoutY="10.0" mnemonicParsing="false" onAction="#playVideo" text="Watch Instead" />
          </children>
       </AnchorPane>
    </children>

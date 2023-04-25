@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="660.0" prefWidth="960.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.digitalelectronic.Numbersystem">
+   <children>
+      <Text layoutX="20.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number System">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Separator layoutX="14.0" layoutY="48.0" prefHeight="3.0" prefWidth="931.0" />
+      <Text layoutX="17.0" layoutY="68.0" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In a digital system, the system can understand only the optional number system. In these systems, digits symbols are used to represent different values, depending on the index from which it settled in the number system.In simple terms, for representing the information, we use the number system in the digital system" textAlignment="JUSTIFY" wrappingWidth="938.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="17.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Types of Number System">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="247.0" fitWidth="348.0" layoutX="5.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Screenshot%202023-04-10%20at%206.37.31%20PM.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="355.0" layoutY="189.0" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Generally, a binary number system is used in the digital computers. In this number system, it carries only two digits, either 0 or 1. There are two types of electronic pulses present in a binary number system. The first one is the absence of an electronic pulse representing '0'and second one is the presence of electronic pulse representing '1'. Each digit is known as a bit. A four-bit collection (1101) is known as a nibble, and a collection of eight bits (11001010) is known as a byte. The location of a digit in a binary number represents a specific power of the base (2) of the number system." textAlignment="JUSTIFY" wrappingWidth="597.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="445.0" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The decimal numbers are used in our day to day life. The decimal number system contains ten digits from 0 to 9(base 10). Here, the successive place value or position, left to the decimal point holds units, tens, hundreds, thousands, and so on.The position in the decimal number system specifies the power of the base (10). The 0 is the minimum value of the digit, and 9 is the maximum value of the digit. For example, the decimal number 2541 consist of the digit 1 in the unit position, 4 in the tens position, 5 in the hundreds position, and 2 in the thousand positions and the value will be written as" textAlignment="JUSTIFY" wrappingWidth="428.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="355.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Binary Number System">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="26.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Decimal Number System">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="461.0" layoutY="378.0" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The octal number system has base 8(means it has only eight digits from 0 to 7). There are only eight possible digit values to represent a number. With the help of only three bits, an octal number is represented.  Each set of bits has a distinct value between 0 and 7." textAlignment="JUSTIFY" wrappingWidth="491.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#f50c0c" layoutX="461.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Bold;" text="Hexadecimal Number System">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="461.0" layoutY="501.0" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It is another technique to represent the number in the digital system called the hexadecimal number system. The number system has a base of 16 means there are total 16 symbols(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F) used for representing a number. The single-bit representation of decimal values10, 11, 12, 13, 14, and 15 are represented by A, B, C, D, E, and F. Only 4 bits are required for representing a number in a hexadecimal number. Each set of bits has a distinct value between 0 and 15. " textAlignment="JUSTIFY" wrappingWidth="491.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="461.0" layoutY="478.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Octal Number System">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
